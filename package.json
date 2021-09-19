@@ -1,0 +1,23 @@
+{
+  "name": "bluepoint",
+  "version": "1.0.0",
+  "description": "BluePoint Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildCSS": "npx tailwindcss build src/style.css -o src/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluepoint01/BluePoint.git"
+  },
+  "author": "Luis Cedillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluepoint01/BluePoint/issues"
+  },
+  "homepage": "https://github.com/bluepoint01/BluePoint#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.9"
+  }
+}
